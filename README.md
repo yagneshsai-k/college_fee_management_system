@@ -256,3 +256,5 @@ Every non-GET API call after login must include `X-CSRF-Token` from login/sessio
 ### Remaining deployment work
 
 A real UPI/payment provider, callback signature verification, email/SMS provider integrations, PDF file export, and automated database backup scheduling require external configuration and are not claimed as implemented. Login throttling is process-local; use a shared limiter in multi-worker deployments. Deploy the frontend and API behind HTTPS, set a strong stable secret and exact CORS origins, and run the API under a production WSGI server (Gunicorn on Linux; use a Windows-compatible WSGI server on Windows).
+#   c o l l e g e _ f e e _ m a n a g e m e n t _ s y s t e m  
+ 
